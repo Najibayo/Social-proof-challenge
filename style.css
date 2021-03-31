@@ -8,9 +8,8 @@ body {
     Font-size: 15px;
     font-family: 'Spartan', sans-serif;
 }
-
-.container {
-    display: flex;
+.center-container{
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -19,7 +18,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:2%;
 }
 .header {
     font-weight: 700;
+    color:hsl(300, 43%, 22%);
+    font-size: 35px;
+    }
+
+.w-100 {
+    display: flex;
+    flex-direction:row;
+    
 }
