@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 body {
-    Font-size: 15px;
+    /* Font-size: 15px; */
     font-family: 'Spartan', sans-serif;
 }
-.center-container{
+/* .center-container{
     display:flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .row {
     display: flex;
@@ -25,9 +25,26 @@ body {
     color:hsl(300, 43%, 22%);
     font-size: 35px;
     }
-
-.w-100 {
-    display: flex;
-    flex-direction:row;
-    
+h6 {
+    background: hsl(300, 24%, 96%);
+    padding:15px 2px 15px 20px  ;
+    border-radius:10px;
+    color:hsl(300, 43%, 22%);
+    font-size:10px;
+}
+.card {
+    background-color:hsl(300, 43%, 22%);
+    width:90%;
+    height:50%;
+    border: none;
+    border-radius:10px;
+}
+.card-text {
+    color:hsl(0, 0%, 100%);
+}
+.name {
+    color:hsl(0, 0%, 100%);
+}
+.buyer {
+    color:hsl(333, 80%, 67%);
 }
