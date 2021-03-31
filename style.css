@@ -42,6 +42,9 @@ h6 {
 .card-text {
     color:hsl(0, 0%, 100%);
 }
+.card-header {
+    display: flex;
+}
 .name {
     color:hsl(0, 0%, 100%);
 }
