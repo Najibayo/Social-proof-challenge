@@ -15,7 +15,7 @@ body {
     height: 100vh;
     height: 100%;
     position: relative;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 .row {
@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 .first-row {
-    margin-top:5%;
+    margin-top:50px;
 }
 .card-row {
     display: flex;
