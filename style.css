@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction:row;
     margin-top: 5%;
-    max-width: 85%;
+    max-width: 90%;
 }
 .star-div{
     display:flex
