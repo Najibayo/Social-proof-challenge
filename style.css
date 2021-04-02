@@ -7,14 +7,15 @@
 body {
     Font-size: 12px;
     font-family: 'Spartan', sans-serif;
-    /* background-image: url(/images/bg-pattern-top-desktop.svg);
-    background-repeat: no-repeat;
-    background-image: url(/images/bg-pattern-bottom-desktop.svg);
-    background-position-y:; */
-
+}
+.mobile-container {
+    display: none;
 }
 .center-container {
     height: 100vh;
+    height: 100%;
+    position: relative;
+    margin-left: 100px;
 }
 
 .row {
@@ -34,7 +35,10 @@ body {
 .star-div{
     display:flex
     flex-direction:column;
-    width: 65%;
+    width: 75%;
+}
+.star-container {
+    position:relative;
 }
 
 .star{
@@ -43,6 +47,7 @@ body {
 .star-text {
     margin-left: 20px;
     color: hsl(300, 43%, 22%);
+    font-weight: 700;
 }
 .header {
     font-weight: 800;
@@ -52,21 +57,39 @@ body {
 .second {
     background: hsl(300, 24%, 96%);
     padding:15px 2px 15px 20px  ;
-    border-radius:10px;
-    color:hsl(300, 43%, 22%);
-    font-size:5px;
-
+    border-radius:5px;
+    color:hsl(300, 43%, 22%) !important;
+    font-size:10px;
+}
+.one {
+    position:relative;
+    left:-15% ;
+}
+.two{
+    margin-top: 4%;
+    position: relative;
+    left:-5% ;
+}
+.three {
+    margin-top: 4%;
+    position:relative;
+    left:5% ;
+}
+.card-row{
+    
 
 }
 .card {
     background-color:hsl(300, 43%, 22%);
-    /* max-width:300px; */
-    /* max-height:; */
+    width:50%;
+    max-height:;
     border: none;
     border-radius:10px;
+}
+.card-body {
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
 }
 
 .card-text {
@@ -75,13 +98,26 @@ body {
 .card-header {
     display: flex;
     border: none;
-    padding-top:10%;
+    padding-top:8%;
+}
+.header-text {
+    margin-left: 10%;
+}
+.card-row {
+
+}
+.colton {
+    
 }
 .irene  {
     margin-left:3%;
+    position: relative;
+    top: 20px;
 }
 .anne {
     margin-left:3%;
+    position: relative;
+    top:40px;
 }
 .name {
     color:hsl(0, 0%, 100%);
@@ -90,7 +126,35 @@ body {
     color:hsl(333, 80%, 67%);
 }
 .rounded-circle {
-    width:30%;
-    height:50%;
-   
+    width:20%;
+    height:68%;
 }
+.bottom-background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+}
+.top-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url(/images/bg-pattern-top-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: ;
+        background-position-y: -550px;
+    }
+    .row {
+        display: none
+    }
+    .card-row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
