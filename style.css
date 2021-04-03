@@ -8,7 +8,10 @@ body {
     Font-size: 12px;
     font-family: 'Spartan', sans-serif;
 }
-.mobile-container {
+.mobile-img {
+    display: none;
+}
+.mobile-view {
     display: none;
 }
 .center-container {
@@ -75,10 +78,7 @@ body {
     position:relative;
     left:5% ;
 }
-.card-row{
-    
 
-}
 .card {
     background-color:hsl(300, 43%, 22%);
     width:50%;
@@ -103,12 +103,7 @@ body {
 .header-text {
     margin-left: 10%;
 }
-.card-row {
 
-}
-.colton {
-    
-}
 .irene  {
     margin-left:3%;
     position: relative;
@@ -144,17 +139,49 @@ body {
 }
 @media only screen and (max-width: 768px) {
     body {
-        background-image: url(/images/bg-pattern-top-mobile.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-x: ;
-        background-position-y: -550px;
+        
     }
     .row {
-        display: none
+        display:none;
+    }
+    .mobile-view {
+        display:flex;
+        flex-direction: column;
+    }
+    .second {
+        d
+    }
+    .center-container {
+        margin-left: 10%;
+        height: 100vh;
+        height: 100%;
     }
     .card-row {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+    .card {
+        background-color:hsl(300, 43%, 22%);
+        width:100%;
+        border: none;
+        border-radius:10px;
+    }
+    .mobile-img {
+        position: absolute;
+        top: 0;
+        left:0;
+        z-index: -1;
+    }
+
+    .irene  {
+        margin: 0;
+    }
+    .anne {
+        margin: 0;
+    }
+    .star-div{
+        display:flex
+        flex-direction:column;
+        width
+
