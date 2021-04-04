@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;700&display=swap');
-
-
 *{
     box-sizing: border-box;
 }
+
 body {
     Font-size: 12px;
     font-family: 'Spartan', sans-serif;
 }
-.mobile-img {
-    display: none;
-}
-.mobile-view {
-    display: none;
-}
+
+/* .mobile-img {
+    display: ;
+} */
+
 .center-container {
     height: 100vh;
     height: 100%;
@@ -83,7 +81,7 @@ body {
     background-color:hsl(300, 43%, 22%);
     width:50%;
     border: none;
-    border-radius:10px;
+    border-radius:5px;
 }
 .card-body {
     display: flex;
@@ -136,27 +134,14 @@ body {
     left: 0;
     z-index: -1;
 }
+
 @media only screen and (max-width: 768px) {
-    /* body {
-        
-    } */
-    .row {
-        display:none;
-    }
-    .mobile-view {
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
-
-    }
     .center-container {
         margin-left: 10%;
-        /* height: 100vh;
-        height: 100%; */
+        z-index: 1;
     }
+
     .card-row {
         display: flex;
         flex-direction: column;
@@ -169,7 +154,7 @@ body {
         border-radius:10px;
     }
     .mobile-img {
-        position: absolute;
+        position: relative;
         top: 0;
         left:0;
         z-index: -1;
@@ -205,22 +190,32 @@ body {
         align-items: center;
         flex-direction: column;
         width: 80%;
+        margin-top: 80px;
     }
-    .m-header {
+    header {
         font-weight: 800;
         color:hsl(300, 43%, 22%) ;
         text-align: center;
+        font-size: 20px;
     }
-    .m-header-div {
+    /* .m-header-div {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
     }
-    .m-paragraph {
+    /* .m-paragraph-div{
+        margin-top: 20px;
+    } */
+    .paragraph {
         text-align: center;
     }
-    .m-stars {
+    
+    .card-row{
+        margin-top: 40px;
+    }
+    stars {
         width: 82%;
+        margin-top: 20px;
     }
 
     .second {
@@ -235,3 +230,10 @@ body {
         position: relative;
         left: -10px;
     }
+    /* .top-background {
+        display: none;
+    }
+    .bottom-background {
+        display: none;
+    } */
+}
