@@ -166,10 +166,6 @@ body {
     .anne {
         margin: 0;
     }
-    .star-div{
-        display:flex;
-        flex-direction: column;
-    }
     .one {
         position:relative;
         left:0 ;
@@ -184,28 +180,13 @@ body {
         position:relative;
         left:0 ;
     }
-    .hype {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 80%;
-        margin-top: 80px;
-    }
-    header {
+    
+    .header {
         font-weight: 800;
         color:hsl(300, 43%, 22%) ;
         text-align: center;
-        font-size: 20px;
+        font-size: 30px;
     }
-    /* .m-header-div {
-        display: flex;
-        align-items: center;
-        justify-content: center; */
-    }
-    /* .m-paragraph-div{
-        margin-top: 20px;
-    } */
     .paragraph {
         text-align: center;
     }
@@ -213,22 +194,19 @@ body {
     .card-row{
         margin-top: 40px;
     }
-    stars {
-        width: 82%;
-        margin-top: 20px;
-    }
 
-    .second {
-        text-align: center;
-        height: 50%;
-    }
-    .star-text {
-        position: relative;
-        left: -20px;
-    }
     .star {
         position: relative;
         left: -10px;
+    }
+    .second {
+        width:125%;
+    }
+    .stars {
+        text-align:center;
+    }
+    .star-text {
+
     }
     /* .top-background {
         display: none;
