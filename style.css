@@ -8,10 +8,6 @@ body {
     font-family: 'Spartan', sans-serif;
 }
 
-/* .mobile-img {
-    display: ;
-} */
-
 .center-container {
     height: 100vh;
     height: 100%;
@@ -25,7 +21,10 @@ body {
     align-items: center;
 }
 .first-row {
-    margin-top:50px;
+    margin-top:80px;
+}
+.paragraph  {
+    text-align: ;
 }
 .card-row {
     display: flex;
@@ -36,7 +35,8 @@ body {
 .star-div{
     display:flex;
     flex-direction:column;
-    width: 75%;
+    width: 70%;
+    margin-left:25%;
 }
 .star-container {
     position:relative;
@@ -61,6 +61,7 @@ body {
     border-radius:5px;
     color:hsl(300, 43%, 22%) !important;
     font-size:10px;
+    display: flex;
 }
 .one {
     position:relative;
@@ -79,7 +80,7 @@ body {
 
 .card {
     background-color:hsl(300, 43%, 22%);
-    width:50%;
+    width:60%;
     border: none;
     border-radius:5px;
 }
@@ -122,7 +123,7 @@ body {
     height:68%;
 }
 .bottom-background {
-    position: absolute;
+    position: relative;
     bottom: 0;
     right: 0;
     z-index: -1;
@@ -136,9 +137,15 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .body {
+        background-image:url('/images/bg-pattern-top-mobile.svg');
+        background-size:cover;
+        background-repeat:no-repeat;
+
+    }
 
     .center-container {
-        margin-left: 10%;
+        margin-left: 7%;
         z-index: 1;
     }
 
@@ -195,25 +202,23 @@ body {
         margin-top: 40px;
     }
 
-    .star {
-        position: relative;
-        left: -10px;
-    }
     .second {
-        width:123%;
+        width:127%;
+        display:block;
+        margin-left:-33%
     }
-
+    
     .stars {
         text-align:center;
         margin-bottom: 10px;
         position: relative;
-        left:-5px;
+        left:-25px;
     }
     
-    /* .top-background {
+     .top-background {
         display: none;
     }
     .bottom-background {
         display: none;
-    } */
-}
+    } 
+} 
