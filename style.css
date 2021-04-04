@@ -200,14 +200,16 @@ body {
         left: -10px;
     }
     .second {
-        width:125%;
+        width:123%;
     }
+
     .stars {
         text-align:center;
+        margin-bottom: 10px;
+        position: relative;
+        left:-5px;
     }
-    .star-text {
-
-    }
+    
     /* .top-background {
         display: none;
     }
